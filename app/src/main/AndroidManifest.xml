@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ReportEmergency" android:parentActivityName=".MainActivity" android:label="Report Emergency" >
+
+        </activity>
+        <activity android:name=".MainPatient" android:parentActivityName=".ReportEmergency" android:label="Main Patient">
+
+        </activity>
     </application>
 
 </manifest>

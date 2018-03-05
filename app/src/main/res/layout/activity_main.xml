@@ -60,6 +60,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/holo_green_light"
+        android:onClick="reportEmergency"
         android:text="Report Emergency"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
