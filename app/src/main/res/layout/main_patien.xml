@@ -49,7 +49,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.061"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.0" />
@@ -68,8 +68,7 @@
         android:layout_marginTop="49dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="207dp" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <TextView
         android:id="@+id/textView6"
@@ -81,11 +80,11 @@
         android:layout_marginTop="78dp"
         android:text="Cell"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.151" />
 
     <TextView
         android:id="@+id/textView7"
@@ -94,14 +93,14 @@
         android:text="0123456789"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="77dp"
-        android:layout_marginLeft="205dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.154"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.724" />
 
     <TextView
         android:id="@+id/textView8"
@@ -117,23 +116,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.266" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="164dp"
         android:layout_height="59dp"
         android:text="4244 Sofasonke street, Orlando East, Soweto"
-        android:layout_marginLeft="204dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="108dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.297"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.0" />
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.96" />
 
     <TextView
         android:id="@+id/textView10"
@@ -149,15 +148,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteY="171dp" />
+        app:layout_constraintVertical_bias="0.402" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="165dp"
         android:layout_height="41dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="203dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="167dp"
         android:ems="10"
@@ -165,11 +162,12 @@
         android:text="describe the emergency"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.96" />
 
     <Button
         android:id="@+id/button2"
@@ -178,16 +176,16 @@
         android:background="@android:drawable/ic_notification_overlay"
         android:backgroundTint="@android:color/holo_green_light"
         android:text="Submit"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="244dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.909"
         android:layout_marginRight="91dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.957" />
 
     <Button
         android:id="@+id/button3"
@@ -196,7 +194,6 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="51dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="436dp"
         android:background="@android:drawable/ic_notification_overlay"
         android:backgroundTint="@android:color/holo_red_light"
         android:onClick="cancelPatientRequest"
@@ -206,5 +203,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.957" />
 </android.support.constraint.ConstraintLayout>
